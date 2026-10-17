@@ -1,0 +1,34 @@
+pep;pai;projeto;descricao;responsavel
+PRJ-01;;AURORA;Projeto demonstrativo Aurora;Gestão do projeto
+PRJ-01.01;PRJ-01;AURORA;Implantação industrial;Coordenação de implantação
+PRJ-01.01.01;PRJ-01.01;AURORA;Engenharia e projetos;Equipe de engenharia
+PRJ-01.01.02;PRJ-01.01;AURORA;Equipamentos;Equipe de suprimentos
+PRJ-01.01.03;PRJ-01.01;AURORA;Montagem e instalação;Equipe de obras
+PRJ-01.02;PRJ-01;AURORA;Automação e partida;Equipe de automação
+PRJ-02;;HORIZONTE;Centro logístico Horizonte;Gestão Horizonte
+PRJ-02.01;PRJ-02;HORIZONTE;Implantação e infraestrutura;Coordenação Horizonte
+PRJ-02.01.01;PRJ-02.01;HORIZONTE;Engenharia;Equipe engenharia
+PRJ-02.01.02;PRJ-02.01;HORIZONTE;Infraestrutura;Equipe infraestrutura
+PRJ-02.01.03;PRJ-02.01;HORIZONTE;Equipamentos;Equipe equipamentos
+PRJ-02.02;PRJ-02;HORIZONTE;Integração e entrega;Coordenação Horizonte
+PRJ-02.02.01;PRJ-02.02;HORIZONTE;Automação;Equipe automação
+PRJ-02.02.02;PRJ-02.02;HORIZONTE;Segurança operacional;Equipe segurança operacional
+PRJ-02.02.03;PRJ-02.02;HORIZONTE;Partida assistida;Equipe partida assistida
+PRJ-03;;ATLAS;Eficiência energética Atlas;Gestão Atlas
+PRJ-03.01;PRJ-03;ATLAS;Implantação e infraestrutura;Coordenação Atlas
+PRJ-03.01.01;PRJ-03.01;ATLAS;Estudos técnicos;Equipe estudos técnicos
+PRJ-03.01.02;PRJ-03.01;ATLAS;Geração e equipamentos;Equipe geração e equipamentos
+PRJ-03.01.03;PRJ-03.01;ATLAS;Adequações elétricas;Equipe adequações elétricas
+PRJ-03.02;PRJ-03;ATLAS;Integração e entrega;Coordenação Atlas
+PRJ-03.02.01;PRJ-03.02;ATLAS;Integração e controle;Equipe integração e controle
+PRJ-03.02.02;PRJ-03.02;ATLAS;Eficiência operacional;Equipe eficiência operacional
+PRJ-03.02.03;PRJ-03.02;ATLAS;Certificação;Equipe certificação
+PRJ-04;;VERTICE;Modernização digital Vértice;Gestão Vertice
+PRJ-04.01;PRJ-04;VERTICE;Implantação e infraestrutura;Coordenação Vertice
+PRJ-04.01.01;PRJ-04.01;VERTICE;Mapeamento de processos;Equipe mapeamento de processos
+PRJ-04.01.02;PRJ-04.01;VERTICE;Plataforma de dados;Equipe plataforma de dados
+PRJ-04.01.03;PRJ-04.01;VERTICE;Integrações;Equipe integrações
+PRJ-04.02;PRJ-04;VERTICE;Integração e entrega;Coordenação Vertice
+PRJ-04.02.01;PRJ-04.02;VERTICE;Painéis executivos;Equipe painéis executivos
+PRJ-04.02.02;PRJ-04.02;VERTICE;Testes e homologação;Equipe testes e homologação
+PRJ-04.02.03;PRJ-04.02;VERTICE;Capacitação;Equipe capacitação

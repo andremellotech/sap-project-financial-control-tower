@@ -1,0 +1,58 @@
+id;versao;pep;periodo;classe_custo;valor_brl;premissa;responsavel
+E01;FC-09;PRJ-01.01.01;2026-10;SERVICOS;50000.00;Revisões ainda não contratadas e não cobertas pela CJI5;Equipe de engenharia
+E02;FC-09;PRJ-01.01.01;2026-11;SERVICOS;30000.00;Apoio técnico adicional fora do saldo comprometido;Equipe de engenharia
+E03;FC-09;PRJ-01.01.02;2026-12;EQUIPAMENTOS;70000.00;Componentes adicionais ainda sem RC ou PC;Equipe de suprimentos
+E04;FC-09;PRJ-01.01.03;2026-11;SERVICOS;50000.00;Frente adicional fora dos compromissos extraídos;Equipe de obras
+E05;FC-09;PRJ-01.02;2026-11;AUTOMACAO;40000.00;Integração ainda não comprometida no SAP;Equipe de automação
+E06;FC-09;PRJ-01.02;2026-12;AUTOMACAO;40000.00;Comissionamento adicional sem compromisso registrado;Equipe de automação
+E2_1_10;FC-09;PRJ-02.01.01;2026-10;SERVICOS;24000.00;Engenharia: escopo futuro ainda não coberto pelo residual CJI5;Equipe engenharia
+E2_1_11;FC-09;PRJ-02.01.01;2026-11;SERVICOS;21000.00;Engenharia: escopo futuro ainda não coberto pelo residual CJI5;Equipe engenharia
+E2_1_12;FC-09;PRJ-02.01.01;2026-12;SERVICOS;15000.00;Engenharia: escopo futuro ainda não coberto pelo residual CJI5;Equipe engenharia
+E2_2_10;FC-09;PRJ-02.01.02;2026-10;SERVICOS;56000.00;Infraestrutura: escopo futuro ainda não coberto pelo residual CJI5;Equipe infraestrutura
+E2_2_11;FC-09;PRJ-02.01.02;2026-11;SERVICOS;49000.00;Infraestrutura: escopo futuro ainda não coberto pelo residual CJI5;Equipe infraestrutura
+E2_2_12;FC-09;PRJ-02.01.02;2026-12;SERVICOS;35000.00;Infraestrutura: escopo futuro ainda não coberto pelo residual CJI5;Equipe infraestrutura
+E2_3_10;FC-09;PRJ-02.01.03;2026-10;EQUIPAMENTOS;68000.00;Equipamentos: escopo futuro ainda não coberto pelo residual CJI5;Equipe equipamentos
+E2_3_11;FC-09;PRJ-02.01.03;2026-11;EQUIPAMENTOS;59500.00;Equipamentos: escopo futuro ainda não coberto pelo residual CJI5;Equipe equipamentos
+E2_3_12;FC-09;PRJ-02.01.03;2026-12;EQUIPAMENTOS;42500.00;Equipamentos: escopo futuro ainda não coberto pelo residual CJI5;Equipe equipamentos
+E2_4_10;FC-09;PRJ-02.02.01;2026-10;AUTOMACAO;36000.00;Automação: escopo futuro ainda não coberto pelo residual CJI5;Equipe automação
+E2_4_11;FC-09;PRJ-02.02.01;2026-11;AUTOMACAO;31500.00;Automação: escopo futuro ainda não coberto pelo residual CJI5;Equipe automação
+E2_4_12;FC-09;PRJ-02.02.01;2026-12;AUTOMACAO;22500.00;Automação: escopo futuro ainda não coberto pelo residual CJI5;Equipe automação
+E2_5_10;FC-09;PRJ-02.02.02;2026-10;SERVICOS;8000.00;Segurança operacional: escopo futuro ainda não coberto pelo residual CJI5;Equipe segurança operacional
+E2_5_11;FC-09;PRJ-02.02.02;2026-11;SERVICOS;7000.00;Segurança operacional: escopo futuro ainda não coberto pelo residual CJI5;Equipe segurança operacional
+E2_5_12;FC-09;PRJ-02.02.02;2026-12;SERVICOS;5000.00;Segurança operacional: escopo futuro ainda não coberto pelo residual CJI5;Equipe segurança operacional
+E2_6_10;FC-09;PRJ-02.02.03;2026-10;SERVICOS;10000.00;Partida assistida: escopo futuro ainda não coberto pelo residual CJI5;Equipe partida assistida
+E2_6_11;FC-09;PRJ-02.02.03;2026-11;SERVICOS;8750.00;Partida assistida: escopo futuro ainda não coberto pelo residual CJI5;Equipe partida assistida
+E2_6_12;FC-09;PRJ-02.02.03;2026-12;SERVICOS;6250.00;Partida assistida: escopo futuro ainda não coberto pelo residual CJI5;Equipe partida assistida
+E3_1_10;FC-09;PRJ-03.01.01;2026-10;SERVICOS;4000.00;Estudos técnicos: escopo futuro ainda não coberto pelo residual CJI5;Equipe estudos técnicos
+E3_1_11;FC-09;PRJ-03.01.01;2026-11;SERVICOS;3500.00;Estudos técnicos: escopo futuro ainda não coberto pelo residual CJI5;Equipe estudos técnicos
+E3_1_12;FC-09;PRJ-03.01.01;2026-12;SERVICOS;2500.00;Estudos técnicos: escopo futuro ainda não coberto pelo residual CJI5;Equipe estudos técnicos
+E3_2_10;FC-09;PRJ-03.01.02;2026-10;EQUIPAMENTOS;52000.00;Geração e equipamentos: escopo futuro ainda não coberto pelo residual CJI5;Equipe geração e equipamentos
+E3_2_11;FC-09;PRJ-03.01.02;2026-11;EQUIPAMENTOS;45500.00;Geração e equipamentos: escopo futuro ainda não coberto pelo residual CJI5;Equipe geração e equipamentos
+E3_2_12;FC-09;PRJ-03.01.02;2026-12;EQUIPAMENTOS;32500.00;Geração e equipamentos: escopo futuro ainda não coberto pelo residual CJI5;Equipe geração e equipamentos
+E3_3_10;FC-09;PRJ-03.01.03;2026-10;SERVICOS;40000.00;Adequações elétricas: escopo futuro ainda não coberto pelo residual CJI5;Equipe adequações elétricas
+E3_3_11;FC-09;PRJ-03.01.03;2026-11;SERVICOS;35000.00;Adequações elétricas: escopo futuro ainda não coberto pelo residual CJI5;Equipe adequações elétricas
+E3_3_12;FC-09;PRJ-03.01.03;2026-12;SERVICOS;25000.00;Adequações elétricas: escopo futuro ainda não coberto pelo residual CJI5;Equipe adequações elétricas
+E3_4_10;FC-09;PRJ-03.02.01;2026-10;AUTOMACAO;12000.00;Integração e controle: escopo futuro ainda não coberto pelo residual CJI5;Equipe integração e controle
+E3_4_11;FC-09;PRJ-03.02.01;2026-11;AUTOMACAO;10500.00;Integração e controle: escopo futuro ainda não coberto pelo residual CJI5;Equipe integração e controle
+E3_4_12;FC-09;PRJ-03.02.01;2026-12;AUTOMACAO;7500.00;Integração e controle: escopo futuro ainda não coberto pelo residual CJI5;Equipe integração e controle
+E3_5_10;FC-09;PRJ-03.02.02;2026-10;SERVICOS;28000.00;Eficiência operacional: escopo futuro ainda não coberto pelo residual CJI5;Equipe eficiência operacional
+E3_5_11;FC-09;PRJ-03.02.02;2026-11;SERVICOS;24500.00;Eficiência operacional: escopo futuro ainda não coberto pelo residual CJI5;Equipe eficiência operacional
+E3_5_12;FC-09;PRJ-03.02.02;2026-12;SERVICOS;17500.00;Eficiência operacional: escopo futuro ainda não coberto pelo residual CJI5;Equipe eficiência operacional
+E3_6_10;FC-09;PRJ-03.02.03;2026-10;SERVICOS;8000.00;Certificação: escopo futuro ainda não coberto pelo residual CJI5;Equipe certificação
+E3_6_11;FC-09;PRJ-03.02.03;2026-11;SERVICOS;7000.00;Certificação: escopo futuro ainda não coberto pelo residual CJI5;Equipe certificação
+E3_6_12;FC-09;PRJ-03.02.03;2026-12;SERVICOS;5000.00;Certificação: escopo futuro ainda não coberto pelo residual CJI5;Equipe certificação
+E4_2_10;FC-09;PRJ-04.01.02;2026-10;AUTOMACAO;2000.00;Plataforma de dados: escopo futuro ainda não coberto pelo residual CJI5;Equipe plataforma de dados
+E4_2_11;FC-09;PRJ-04.01.02;2026-11;AUTOMACAO;1750.00;Plataforma de dados: escopo futuro ainda não coberto pelo residual CJI5;Equipe plataforma de dados
+E4_2_12;FC-09;PRJ-04.01.02;2026-12;AUTOMACAO;1250.00;Plataforma de dados: escopo futuro ainda não coberto pelo residual CJI5;Equipe plataforma de dados
+E4_3_10;FC-09;PRJ-04.01.03;2026-10;AUTOMACAO;2000.00;Integrações: escopo futuro ainda não coberto pelo residual CJI5;Equipe integrações
+E4_3_11;FC-09;PRJ-04.01.03;2026-11;AUTOMACAO;1750.00;Integrações: escopo futuro ainda não coberto pelo residual CJI5;Equipe integrações
+E4_3_12;FC-09;PRJ-04.01.03;2026-12;AUTOMACAO;1250.00;Integrações: escopo futuro ainda não coberto pelo residual CJI5;Equipe integrações
+E4_4_10;FC-09;PRJ-04.02.01;2026-10;SERVICOS;2000.00;Painéis executivos: escopo futuro ainda não coberto pelo residual CJI5;Equipe painéis executivos
+E4_4_11;FC-09;PRJ-04.02.01;2026-11;SERVICOS;1750.00;Painéis executivos: escopo futuro ainda não coberto pelo residual CJI5;Equipe painéis executivos
+E4_4_12;FC-09;PRJ-04.02.01;2026-12;SERVICOS;1250.00;Painéis executivos: escopo futuro ainda não coberto pelo residual CJI5;Equipe painéis executivos
+E4_5_10;FC-09;PRJ-04.02.02;2026-10;SERVICOS;2000.00;Testes e homologação: escopo futuro ainda não coberto pelo residual CJI5;Equipe testes e homologação
+E4_5_11;FC-09;PRJ-04.02.02;2026-11;SERVICOS;1750.00;Testes e homologação: escopo futuro ainda não coberto pelo residual CJI5;Equipe testes e homologação
+E4_5_12;FC-09;PRJ-04.02.02;2026-12;SERVICOS;1250.00;Testes e homologação: escopo futuro ainda não coberto pelo residual CJI5;Equipe testes e homologação
+E4_6_10;FC-09;PRJ-04.02.03;2026-10;SERVICOS;6000.00;Capacitação: escopo futuro ainda não coberto pelo residual CJI5;Equipe capacitação
+E4_6_11;FC-09;PRJ-04.02.03;2026-11;SERVICOS;5250.00;Capacitação: escopo futuro ainda não coberto pelo residual CJI5;Equipe capacitação
+E4_6_12;FC-09;PRJ-04.02.03;2026-12;SERVICOS;3750.00;Capacitação: escopo futuro ainda não coberto pelo residual CJI5;Equipe capacitação

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Baseline, projeção, custo realizado e caixa por elemento PEP, com referência SAP GUI CJI3, CJI5 e CJIA. Exemplo fictício."><title>Controle financeiro de projetos · PEP & SAP GUI</title><style>__CSS__</style></head>
+<body>
+<svg class="icon-defs" aria-hidden="true" width="0" height="0"><defs>
+<symbol id="i-overview" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol>
+<symbol id="i-adherence" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="m9 12 2 2 4-5"/></symbol>
+<symbol id="i-peps" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M6 16v-4h12v4"/></symbol>
+<symbol id="i-actual" viewBox="0 0 24 24"><path d="M7 3h8l4 4v14H5V5a2 2 0 0 1 2-2Z"/><path d="M14 3v5h5M8 12h7M8 16h5"/></symbol>
+<symbol id="i-commitment" viewBox="0 0 24 24"><path d="m3 7 9-4 9 4-9 4-9-4Zm0 0v10l9 4 9-4V7M12 11v10M7 5l9 4"/></symbol>
+<symbol id="i-cash" viewBox="0 0 24 24"><path d="M4 7h15m-4-4 4 4-4 4M20 17H5m4-4-4 4 4 4"/></symbol>
+<symbol id="i-forecast" viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 6-9M15 5h5v5"/></symbol>
+<symbol id="i-sources" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 4 16 4 16 0V5M4 12c0 4 16 4 16 0"/></symbol>
+<symbol id="i-baseline" viewBox="0 0 24 24"><path d="M4 4v16h16M8 14h3M8 10h7M8 6h11"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M7 5h12v12"/></symbol>
+<symbol id="i-alert" viewBox="0 0 24 24"><path d="m12 3 10 18H2L12 3Z"/><path d="M12 9v5m0 3v.5"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v.5"/></symbol>
+<symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 6h16M7 12h10M10 18h4"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M4 16v5h16v-5"/></symbol>
+</defs></svg>
+<a class="skip" href="#panel">Ir ao relatório</a>
+<aside>
+<a class="brand" href="#overview"><span class="brand-symbol"><svg class="icon" aria-hidden="true"><use href="#i-peps"/></svg></span><span>PROJECT FINANCE<strong>CONTROL TOWER</strong></span></a>
+<p class="nav-label">PAINEL DE GESTÃO</p>
+<nav aria-label="Perspectivas financeiras">
+<button data-view="overview" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-overview"/></svg><span>Visão executiva</span></button>
+<button data-view="adherence"><svg class="icon" aria-hidden="true"><use href="#i-adherence"/></svg><span>Aderência</span></button>
+<button data-view="peps"><svg class="icon" aria-hidden="true"><use href="#i-peps"/></svg><span>Elementos PEP</span></button>
+<span class="nav-section">ORIGEM DOS VALORES</span>
+<button data-view="actual"><svg class="icon" aria-hidden="true"><use href="#i-actual"/></svg><span>Realizado · CJI3</span></button>
+<button data-view="commitment"><svg class="icon" aria-hidden="true"><use href="#i-commitment"/></svg><span>Compromissos · CJI5</span></button>
+<button data-view="cash"><svg class="icon" aria-hidden="true"><use href="#i-cash"/></svg><span>Caixa · CJIA</span></button>
+<span class="nav-section">PLANEJAMENTO E CONTROLE</span>
+<button data-view="forecast"><svg class="icon" aria-hidden="true"><use href="#i-forecast"/></svg><span>Projeção e build-up</span></button>
+<button data-view="sources"><svg class="icon" aria-hidden="true"><use href="#i-sources"/></svg><span>SAP e origens</span></button>
+</nav>
+<div class="side-bottom"><b><i></i> CUSTO ≠ CAIXA</b><p>Do plano ao documento.<br>Uma trilha por elemento PEP.</p><a href="https://github.com/andremellotech/sap-project-financial-control-tower">Código e documentação <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a><small>Projeto independente · André Mello<br>Não é um produto oficial SAP.</small></div>
+</aside>
+<main>
+<header><div><span class="eyebrow">FINANÇAS / PROJETOS / SAP GUI</span><h1>Controle financeiro</h1><p>Baseline, projeção e execução por elemento PEP.</p></div><div class="cut"><span id="kind"></span><strong id="cut"></strong><small id="version-label"></small></div></header>
+<section class="filters" aria-label="Filtros globais"><div><span class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-filter"/></svg> RECORTE DA ANÁLISE</span><small id="scope-note" aria-live="polite"></small></div><div class="filter-fields"><label>Projeto<select id="project"><option value="">Todos os projetos</option></select></label><label>PEP / subárvore<select id="pep"><option value="">Todos os elementos</option></select></label><label>Classe de custo<select id="cost-class"><option value="">Todas as classes</option></select></label><button id="reset" class="text-button">Limpar filtros</button></div></section>
+<section id="kpis" class="kpis" aria-label="Indicadores do recorte"></section>
+<section id="panel" tabindex="-1" aria-labelledby="panel-title"></section>
+<footer><span><b>André Mello</b> · Analytics e controle financeiro</span><span>v1.2.1 · Python + SQL · BRL</span><a href="https://www.linkedin.com/in/aamello/">LinkedIn ↗</a></footer>
+</main>
+<dialog id="detail" aria-labelledby="detail-title"><div class="dialog-top"><span class="eyebrow">TRILHA DE CONFERÊNCIA</span><button id="close-detail" aria-label="Fechar ficha"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><div id="detail-body"></div></dialog>
+<script type="application/json" id="report-data">__DATA__</script><script type="application/json" id="report-context">__CONTEXT__</script><script>__METRICS__</script><script>__JS__</script>
+</body></html>

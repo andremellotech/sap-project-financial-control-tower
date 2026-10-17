@@ -1,0 +1,19 @@
+{
+  "data_corte": "2026-09-30",
+  "moeda": "BRL",
+  "versao_baseline": "BL-01",
+  "data_aprovacao_baseline": "2025-12-15",
+  "versao_forecast": "FC-09",
+  "dados_ficticios": true,
+  "escopo": "Portfólio inteiramente fictício: Aurora (implantação industrial), Horizonte (logística), Atlas (eficiência energética) e Vértice (modernização digital). Custos diretos em PEPs folha; ano civil e BRL. Liquidações fora do custo. Versões e aprovação comuns apenas para demonstração.",
+  "arquivos": {
+    "peps": "peps.csv",
+    "baseline": "baseline.csv",
+    "cji3": "cji3.csv",
+    "cji5": "cji5.csv",
+    "cjia": "cjia.csv",
+    "etc": "etc.csv",
+    "conciliacoes": "conciliacoes.csv",
+    "conferencia": "conferencia_sap.csv"
+  }
+}

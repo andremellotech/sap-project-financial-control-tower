@@ -1,0 +1,57 @@
+id;pep;data_snapshot;tipo;documento;item;alocacao;classe_custo;descricao;data_prevista;valor_brl
+C01;PRJ-01.01.01;2026-09-30;PC;4500010001;00030;01;SERVICOS;Saldo de engenharia contratada;2026-10-31;40000.00
+C02;PRJ-01.01.02;2026-09-30;PC;4500010002;00020;01;EQUIPAMENTOS;Fornecimento a entregar;2026-11-30;120000.00
+C03;PRJ-01.01.02;2026-09-30;RC;1000010001;00010;01;EQUIPAMENTOS;Parcela residual da RC ainda não convertida;2026-12-15;30000.00
+C04;PRJ-01.01.03;2026-09-30;PC;4500010003;00020;01;SERVICOS;Saldo de montagem com previsão vencida;2026-08-31;80000.00
+C05;PRJ-01.02;2026-09-30;RC;1000010002;00010;01;AUTOMACAO;Demanda de testes em aberto;2026-12-10;20000.00
+C2_1_1;PRJ-02.01.01;2026-09-30;PC;4502000001;00010;01;SERVICOS;Engenharia · saldo residual do lote 1, sem sobreposição;2026-10-31;55000.00
+C2_1_2;PRJ-02.01.01;2026-09-30;PC;4502000001;00020;01;SERVICOS;Engenharia · saldo residual do lote 2, sem sobreposição;2026-11-30;33000.00
+C2_1_3;PRJ-02.01.01;2026-09-30;RC;1002000001;00030;01;SERVICOS;Engenharia · saldo residual do lote 3, sem sobreposição;2026-12-15;22000.00
+C2_2_1;PRJ-02.01.02;2026-09-30;PC;4502000002;00010;01;SERVICOS;Infraestrutura · saldo residual do lote 1, sem sobreposição;2026-08-31;125000.00
+C2_2_2;PRJ-02.01.02;2026-09-30;PC;4502000002;00020;01;SERVICOS;Infraestrutura · saldo residual do lote 2, sem sobreposição;2026-11-30;75000.00
+C2_2_3;PRJ-02.01.02;2026-09-30;RC;1002000002;00030;01;SERVICOS;Infraestrutura · saldo residual do lote 3, sem sobreposição;2026-12-15;50000.00
+C2_3_1;PRJ-02.01.03;2026-09-30;PC;4502000003;00010;01;EQUIPAMENTOS;Equipamentos · saldo residual do lote 1, sem sobreposição;2026-10-31;175000.00
+C2_3_2;PRJ-02.01.03;2026-09-30;PC;4502000003;00020;01;EQUIPAMENTOS;Equipamentos · saldo residual do lote 2, sem sobreposição;2026-11-30;105000.00
+C2_3_3;PRJ-02.01.03;2026-09-30;RC;1002000003;00030;01;EQUIPAMENTOS;Equipamentos · saldo residual do lote 3, sem sobreposição;2026-12-15;70000.00
+C2_4_1;PRJ-02.02.01;2026-09-30;PC;4502000004;00010;01;AUTOMACAO;Automação · saldo residual do lote 1, sem sobreposição;2026-10-31;75000.00
+C2_4_2;PRJ-02.02.01;2026-09-30;PC;4502000004;00020;01;AUTOMACAO;Automação · saldo residual do lote 2, sem sobreposição;2026-11-30;45000.00
+C2_4_3;PRJ-02.02.01;2026-09-30;RC;1002000004;00030;01;AUTOMACAO;Automação · saldo residual do lote 3, sem sobreposição;2026-12-15;30000.00
+C2_5_1;PRJ-02.02.02;2026-09-30;PC;4502000005;00010;01;SERVICOS;Segurança operacional · saldo residual do lote 1, sem sobreposição;2026-10-31;45000.00
+C2_5_2;PRJ-02.02.02;2026-09-30;PC;4502000005;00020;01;SERVICOS;Segurança operacional · saldo residual do lote 2, sem sobreposição;2026-11-30;27000.00
+C2_5_3;PRJ-02.02.02;2026-09-30;RC;1002000005;00030;01;SERVICOS;Segurança operacional · saldo residual do lote 3, sem sobreposição;2026-12-15;18000.00
+C2_6_1;PRJ-02.02.03;2026-09-30;PC;4502000006;00010;01;SERVICOS;Partida assistida · saldo residual do lote 1, sem sobreposição;2026-10-31;7500.00
+C2_6_2;PRJ-02.02.03;2026-09-30;PC;4502000006;00020;01;SERVICOS;Partida assistida · saldo residual do lote 2, sem sobreposição;2026-11-30;4500.00
+C2_6_3;PRJ-02.02.03;2026-09-30;RC;1002000006;00030;01;SERVICOS;Partida assistida · saldo residual do lote 3, sem sobreposição;2026-12-15;3000.00
+C3_1_1;PRJ-03.01.01;2026-09-30;PC;4503000001;00010;01;SERVICOS;Estudos técnicos · saldo residual do lote 1, sem sobreposição;2026-10-31;5000.00
+C3_1_2;PRJ-03.01.01;2026-09-30;PC;4503000001;00020;01;SERVICOS;Estudos técnicos · saldo residual do lote 2, sem sobreposição;2026-11-30;3000.00
+C3_1_3;PRJ-03.01.01;2026-09-30;RC;1003000001;00030;01;SERVICOS;Estudos técnicos · saldo residual do lote 3, sem sobreposição;2026-12-15;2000.00
+C3_2_1;PRJ-03.01.02;2026-09-30;PC;4503000002;00010;01;EQUIPAMENTOS;Geração e equipamentos · saldo residual do lote 1, sem sobreposição;2026-10-31;70000.00
+C3_2_2;PRJ-03.01.02;2026-09-30;PC;4503000002;00020;01;EQUIPAMENTOS;Geração e equipamentos · saldo residual do lote 2, sem sobreposição;2026-11-30;42000.00
+C3_2_3;PRJ-03.01.02;2026-09-30;RC;1003000002;00030;01;EQUIPAMENTOS;Geração e equipamentos · saldo residual do lote 3, sem sobreposição;2026-12-15;28000.00
+C3_3_1;PRJ-03.01.03;2026-09-30;PC;4503000003;00010;01;SERVICOS;Adequações elétricas · saldo residual do lote 1, sem sobreposição;2026-08-31;50000.00
+C3_3_2;PRJ-03.01.03;2026-09-30;PC;4503000003;00020;01;SERVICOS;Adequações elétricas · saldo residual do lote 2, sem sobreposição;2026-11-30;30000.00
+C3_3_3;PRJ-03.01.03;2026-09-30;RC;1003000003;00030;01;SERVICOS;Adequações elétricas · saldo residual do lote 3, sem sobreposição;2026-12-15;20000.00
+C3_4_1;PRJ-03.02.01;2026-09-30;PC;4503000004;00010;01;AUTOMACAO;Integração e controle · saldo residual do lote 1, sem sobreposição;2026-10-31;20000.00
+C3_4_2;PRJ-03.02.01;2026-09-30;PC;4503000004;00020;01;AUTOMACAO;Integração e controle · saldo residual do lote 2, sem sobreposição;2026-11-30;12000.00
+C3_4_3;PRJ-03.02.01;2026-09-30;RC;1003000004;00030;01;AUTOMACAO;Integração e controle · saldo residual do lote 3, sem sobreposição;2026-12-15;8000.00
+C3_5_1;PRJ-03.02.02;2026-09-30;PC;4503000005;00010;01;SERVICOS;Eficiência operacional · saldo residual do lote 1, sem sobreposição;2026-10-31;10000.00
+C3_5_2;PRJ-03.02.02;2026-09-30;PC;4503000005;00020;01;SERVICOS;Eficiência operacional · saldo residual do lote 2, sem sobreposição;2026-11-30;6000.00
+C3_5_3;PRJ-03.02.02;2026-09-30;RC;1003000005;00030;01;SERVICOS;Eficiência operacional · saldo residual do lote 3, sem sobreposição;2026-12-15;4000.00
+C3_6_1;PRJ-03.02.03;2026-09-30;PC;4503000006;00010;01;SERVICOS;Certificação · saldo residual do lote 1, sem sobreposição;2026-10-31;10000.00
+C3_6_2;PRJ-03.02.03;2026-09-30;PC;4503000006;00020;01;SERVICOS;Certificação · saldo residual do lote 2, sem sobreposição;2026-11-30;6000.00
+C3_6_3;PRJ-03.02.03;2026-09-30;RC;1003000006;00030;01;SERVICOS;Certificação · saldo residual do lote 3, sem sobreposição;2026-12-15;4000.00
+C4_2_1;PRJ-04.01.02;2026-09-30;PC;4504000002;00010;01;AUTOMACAO;Plataforma de dados · saldo residual do lote 1, sem sobreposição;2026-10-31;2500.00
+C4_2_2;PRJ-04.01.02;2026-09-30;PC;4504000002;00020;01;AUTOMACAO;Plataforma de dados · saldo residual do lote 2, sem sobreposição;2026-11-30;1500.00
+C4_2_3;PRJ-04.01.02;2026-09-30;RC;1004000002;00030;01;AUTOMACAO;Plataforma de dados · saldo residual do lote 3, sem sobreposição;2026-12-15;1000.00
+C4_3_1;PRJ-04.01.03;2026-09-30;PC;4504000003;00010;01;AUTOMACAO;Integrações · saldo residual do lote 1, sem sobreposição;2026-10-31;5000.00
+C4_3_2;PRJ-04.01.03;2026-09-30;PC;4504000003;00020;01;AUTOMACAO;Integrações · saldo residual do lote 2, sem sobreposição;2026-11-30;3000.00
+C4_3_3;PRJ-04.01.03;2026-09-30;RC;1004000003;00030;01;AUTOMACAO;Integrações · saldo residual do lote 3, sem sobreposição;2026-12-15;2000.00
+C4_4_1;PRJ-04.02.01;2026-09-30;PC;4504000004;00010;01;SERVICOS;Painéis executivos · saldo residual do lote 1, sem sobreposição;2026-10-31;2500.00
+C4_4_2;PRJ-04.02.01;2026-09-30;PC;4504000004;00020;01;SERVICOS;Painéis executivos · saldo residual do lote 2, sem sobreposição;2026-11-30;1500.00
+C4_4_3;PRJ-04.02.01;2026-09-30;RC;1004000004;00030;01;SERVICOS;Painéis executivos · saldo residual do lote 3, sem sobreposição;2026-12-15;1000.00
+C4_5_1;PRJ-04.02.02;2026-09-30;PC;4504000005;00010;01;SERVICOS;Testes e homologação · saldo residual do lote 1, sem sobreposição;2026-10-31;5000.00
+C4_5_2;PRJ-04.02.02;2026-09-30;PC;4504000005;00020;01;SERVICOS;Testes e homologação · saldo residual do lote 2, sem sobreposição;2026-11-30;3000.00
+C4_5_3;PRJ-04.02.02;2026-09-30;RC;1004000005;00030;01;SERVICOS;Testes e homologação · saldo residual do lote 3, sem sobreposição;2026-12-15;2000.00
+C4_6_1;PRJ-04.02.03;2026-09-30;PC;4504000006;00010;01;SERVICOS;Capacitação · saldo residual do lote 1, sem sobreposição;2026-10-31;2500.00
+C4_6_2;PRJ-04.02.03;2026-09-30;PC;4504000006;00020;01;SERVICOS;Capacitação · saldo residual do lote 2, sem sobreposição;2026-11-30;1500.00
+C4_6_3;PRJ-04.02.03;2026-09-30;RC;1004000006;00030;01;SERVICOS;Capacitação · saldo residual do lote 3, sem sobreposição;2026-12-15;1000.00
