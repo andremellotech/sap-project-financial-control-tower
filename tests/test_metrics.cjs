@@ -4,7 +4,7 @@ const vm = require('node:vm');
 const sandbox = {globalThis:{}};
 vm.runInNewContext(fs.readFileSync('web/metrics.js','utf8'),sandbox);
 const M = sandbox.globalThis.FinanceMetrics;
-const r = JSON.parse(fs.readFileSync('reports/demo/relatorio.json','utf8'));
+const r = JSON.parse(fs.readFileSync('dist/reports/demo/relatorio.json','utf8'));
 const all = M.scope(r,'','','');
 assert.deepEqual(JSON.parse(JSON.stringify(M.totals(r,all))),r.totals);
 const engineering = M.scope(r,'','PRJ-01.01.01','');

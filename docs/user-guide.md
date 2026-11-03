@@ -2,7 +2,7 @@
 
 ## Explorar sem instalar
 
-1. Extraia o ZIP completo. Abra `index.html` na raiz ou acesse a demonstração publicada no Pages.
+1. Extraia o ZIP das fontes, instale as dependências quando declaradas e execute `python scripts/build_site.py`. Abra `dist/index.html` ou acesse a demonstração publicada no Pages.
 2. Na visão executiva, compare os quatro projetos: baseline consolidada R$ 5,8 milhões, realizado R$ 3,15 milhões e EAC R$ 5,95 milhões. Os cards abrem o projeto; a matriz reúne 22 PEPs folha. Compare baseline total, custo realizado, residual CJI5 e EAC. O gráfico de curva compara somente o ano civil do corte; os indicadores incluem todo o horizonte informado.
 3. Para seguir os exemplos abaixo, selecione **AURORA** no filtro Projeto. Filtre subárvore PEP e classe de custo. O filtro se aplica a todas as perspectivas e fichas. Seleções incompatíveis mostram zeros; Limpar restaura tudo.
 4. Em **Elementos PEP**, clique em `PRJ-01.01.01`. Confira baseline R$ 200 mil, realizado R$ 100 mil e EAC R$ 220 mil. Pais são subtotais: não some as linhas da hierarquia.
@@ -67,3 +67,5 @@ Use Limpar filtros para voltar aos quatro projetos. Veja [cenários, PEPs e núm
 Acima do gráfico, confira o recorte aplicado e o resumo de **desvio no fechamento**, **projetado restante** e **parcela realizada do EAC**. Esta última é custo realizado dividido pelo EAC, quando o denominador é positivo e o realizado não é negativo; não mede avanço físico. Cada coluna mostra nome, composição e desvio de EAC menos baseline. O total consolidado permanece à direita.
 
 Abra **Critérios de leitura e valores com crédito** para ver os cuidados de interpretação. A seção **Premissas do ETC adicional** fica recolhida ao final; clique na seta para conferir a tabela completa, premissas e responsáveis. A sensibilidade continua separada do gráfico publicado.
+
+Para obter de uma vez todos os relatórios demonstrativos e downloads em uma pasta distribuível, execute `python scripts/build_site.py` e mantenha `dist` inteira. A pasta exige geração antes do primeiro uso offline; o processamento dos dados próprios continua seguindo os comandos deste guia.

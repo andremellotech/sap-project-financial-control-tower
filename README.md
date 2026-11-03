@@ -156,10 +156,10 @@ Consulte os [cenários da demonstração](docs/demo-scenarios.md).
 
 ### Abrir a demonstração
 
-Para uso offline, extraia o pacote e abra:
+Para uso offline, execute `python scripts/build_site.py` e abra:
 
 ```text
-index.html
+dist/index.html
 ```
 
 Para acesso pela web, utilize a [demonstração online](https://andremellotech.github.io/sap-project-financial-control-tower/), quando o GitHub Pages estiver habilitado.
@@ -215,11 +215,11 @@ sql/               Schema e views utilizados pelo motor
 sample-input/      Bases CSV fictícias
 config/            Manifesto: corte, versões, aprovação e arquivos
 web/               Interface HTML, CSS e JavaScript
-reports/demo/      Snapshot fictício: HTML, JSON, SQLite e CSVs
+dist/reports/demo/ Snapshot demonstrativo regenerado (não versionado)
 docs/              Uso, contrato, indicadores, SAP e publicação
 tests/             Regras financeiras, exportação e filtros
 .github/workflows/ Validação configurada para Windows e Ubuntu
-index.html         Demonstração pronta para abrir ou publicar
+dist/index.html    Demonstração autocontida regenerada para abrir ou publicar
 ```
 
 ## Verificações
@@ -230,6 +230,7 @@ Com Python e Node.js disponíveis, execute:
 python -m unittest discover -s tests
 node --check web/app.js
 node --check web/metrics.js
+python scripts/build_site.py
 node tests/test_metrics.cjs
 ```
 
@@ -277,3 +278,15 @@ Desenvolvido por **André Mello**.
 [GitHub](https://github.com/andremellotech) · [LinkedIn](https://www.linkedin.com/in/aamello/)
 
 Código e exemplos disponibilizados sob a [licença MIT](LICENSE).
+
+## Distribuição compacta
+
+As fontes, regras, SQL, controles, entradas fictícias, testes, guias e imagens originais permanecem versionados. HTML, CSV, JSON, Excel e SQLite derivados são regenerados pelas mesmas rotinas do projeto; não são duplicados na branch.
+
+```bash
+python scripts/build_site.py
+```
+
+Abra `dist/index.html` ou distribua a pasta `dist` inteira: ela preserva os caminhos dos relatórios e todos os downloads, inclusive offline, sem servidor ou CDN. O comando usa somente os exemplos fictícios incluídos, trabalha em pasta temporária e exige uma saída nova; para outra execução use `--output local-output/demo-2`. Os comandos locais de processamento de dados próprios continuam disponíveis.
+
+O workflow de validação disponibiliza `dist` como artefato offline. Este projeto não habilita nem publica GitHub Pages automaticamente.
